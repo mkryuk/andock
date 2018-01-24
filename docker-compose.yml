@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  andock:
+    image: andock
+    build: .
+    ports:
+      - 80:80
